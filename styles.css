@@ -47,12 +47,17 @@ nav ul li a {
 }
 
 .card {
+    display: flex;
     background-color: #fff;
+    gap: 15px;
     margin: 10px;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .card h3 {
@@ -62,6 +67,15 @@ nav ul li a {
 .card p {
     font-size: 1.2rem;
     margin-bottom: 15px;
+}
+.details,
+.img{
+    width: 50%;
+}
+.img>img{
+        width: 60%;
+    height: 180px;
+    object-fit: cover;
 }
 
 button {
