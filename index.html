@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante Delícia</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -23,26 +25,47 @@
         <div class="container">
             <h2>Menu</h2>
             <div class="card">
-                <h3>Pizza Margherita</h3>
-                <p>R$ 30,00</p>
-                <button onclick="adicionarPedido('Pizza Margherita', 30)">Adicionar ao pedido</button>
+                <div class="img">
+                    <img src="pizza.png" alt="pizza">
+                </div>
+                <div class="details">
+                    <h3>Pizza Margherita</h3>
+                    <p>R$ 30,00</p>
+                    <button onclick="adicionarPedido('Pizza Margherita', 30)">Adicionar ao pedido</button>
+                </div>
             </div>
             <div class="card">
-                <h3>Burger Deluxe</h3>
-                <p>R$ 25,00</p>
-                <button onclick="adicionarPedido('Burger Deluxe', 25)">Adicionar ao pedido</button>
+                <div class="img">
+                    <img src="burger.jpg" alt="burguer">
+                </div>
+                <div class="details">
+                    <h3>Burger Deluxe</h3>
+                    <p>R$ 25,00</p>
+                    <button onclick="adicionarPedido('Burger Deluxe', 25)">Adicionar ao pedido</button>
+                </div>
             </div>
             <div class="card">
-                <h3>Salada Caesar</h3>
-                <p>R$ 20,00</p>
-                <button onclick="adicionarPedido('Salada Caesar', 20)">Adicionar ao pedido</button>
+                <div class="img">
+                    <img src="salada.jpg" alt="burguer">
+                </div>
+                <div class="details">
+                    <h3>Salada Caesar</h3>
+                    <p>R$ 20,00</p>
+                    <button onclick="adicionarPedido('Salada Caesar', 20)">Adicionar ao pedido</button>
+                </div>
             </div>
-            <div class="card">
-                <h3>Sushi Mix</h3>
-                <p>R$ 40,00</p>
-                <button onclick="adicionarPedido('Sushi Mix', 40)">Adicionar ao pedido</button>
+                    <div class="card">
+            <div class="img">
+                <img src="sushi.webp" alt="burguer">
+            </div>
+            <div class="details">
+               <h3>Sushi Mix</h3>
+                    <p>R$ 40,00</p>
+                    <button onclick="adicionarPedido('Sushi Mix', 40)">Adicionar ao pedido</button>
             </div>
         </div>
+        </div>
+
     </section>
 
     <section id="pedidos" class="pedidos">
@@ -61,6 +84,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
-
-
