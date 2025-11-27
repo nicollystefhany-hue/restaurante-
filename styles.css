@@ -20,6 +20,7 @@ header {
 header h1 {
     text-align: center;
 }
+ackground: antiquewhite;
 
 nav ul {
     list-style: none;
@@ -108,3 +109,4 @@ footer {
     background-color: #4CAF50;
     margin-top: 20px;
 }
+
